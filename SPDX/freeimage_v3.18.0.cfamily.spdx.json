@@ -1,0 +1,382 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "spdxVersion": "SPDX-2.3",
+  "dataLicense": "CC0-1.0",
+  "name": "freeimage",
+  "documentNamespace": "https://app.soos.io:443/spdxdocs/soos/freeimage-3.18.0-768df831-41bb-41af-b0fb-7269babf8245",
+  "comment": "SOOS is providing this SBOM for non-commercial use. By downloading an SBOM from SOOS, you agree to all applicable terms at https://soos.io/terms-of-service. If you are interested in commercial SBOM access please contact sales@soos.io",
+  "creationInfo": {
+    "created": "2024-10-01T20:42:01Z",
+    "creators": [
+      "Organization: SOOS LLC ()",
+      "Person:   (support@soos.io)",
+      "Tool: SOOS SCA-33.11.12.2"
+    ],
+    "comment": "SOOS SCA scan against pkg:conan/freeimage@3.18.0",
+    "licenseListVersion": "3.9"
+  },
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "name": "freeimage",
+      "versionInfo": "3.18.0",
+      "downloadLocation": "https://conan.io/center/recipes/freeimage?version=3.18.0",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "5471cb50c66ef33b30d18c82566b1f24"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/freeimage?version=3.18.0",
+      "licenseDeclared": "GPL-2.0-or-later",
+      "licenseConcluded": "GPL-2.0-or-later",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/freeimage@3.18.0"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2019-12212"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2019-12214"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-31570"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-JXRLIB-cci.20170615",
+      "name": "jxrlib",
+      "versionInfo": "cci.20170615",
+      "downloadLocation": "https://conan.io/center/recipes/jxrlib?version=cci.20170615",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "d5980b2e6c8b24fc07f940ec4e56e883"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/jxrlib?version=cci.20170615",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseConcluded": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/jxrlib@cci.20170615"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBJPEG-9e",
+      "name": "libjpeg",
+      "versionInfo": "9e",
+      "downloadLocation": "https://conan.io/center/recipes/libjpeg?version=9e",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "3cd27a78643419450ee6d3739514d25c"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libjpeg?version=9e",
+      "licenseDeclared": "IJG",
+      "licenseConcluded": "IJG",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libjpeg@9e"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBPNG-1.6.40",
+      "name": "libpng",
+      "versionInfo": "1.6.40",
+      "downloadLocation": "https://conan.io/center/recipes/libpng?version=1.6.40",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "06f726bd4bfd83f5cdc10587826093f0"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libpng?version=1.6.40",
+      "licenseDeclared": "libpng-2.0",
+      "licenseConcluded": "libpng-2.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libpng@1.6.40"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBRAW-0.20.2",
+      "name": "libraw",
+      "versionInfo": "0.20.2",
+      "downloadLocation": "https://conan.io/center/recipes/libraw?version=0.20.2",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "37b6600fa475d5823501e45b920b6272"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libraw?version=0.20.2",
+      "licenseDeclared": "CDDL-1.0",
+      "licenseConcluded": "CDDL-1.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libraw@0.20.2"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBTIFF-4.5.1",
+      "name": "libtiff",
+      "versionInfo": "4.5.1",
+      "downloadLocation": "https://conan.io/center/recipes/libtiff?version=4.5.1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "0c389f14923e777dd3a0547c45691540"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libtiff?version=4.5.1",
+      "licenseDeclared": "libtiff",
+      "licenseConcluded": "libtiff",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libtiff@4.5.1"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-3164"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-40745"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-41175"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-52355"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2024-7006"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-LIBWEBP-1.3.1",
+      "name": "libwebp",
+      "versionInfo": "1.3.1",
+      "downloadLocation": "https://conan.io/center/recipes/libwebp?version=1.3.1",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4080c18c9fb191321c477824bd4a926d"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/libwebp?version=1.3.1",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/libwebp@1.3.1"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-OPENEXR-2.5.7",
+      "name": "openexr",
+      "versionInfo": "2.5.7",
+      "downloadLocation": "https://conan.io/center/recipes/openexr?version=2.5.7",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "191290b5cb7da90a05ed351fae29d9c4"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/openexr?version=2.5.7",
+      "licenseDeclared": "BSD-3-Clause",
+      "licenseConcluded": "BSD-3-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/openexr@2.5.7"
+        }
+      ],
+      "supplier": "Organization: AcademySoftwareFoundation",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-OPENJPEG-2.5.0",
+      "name": "openjpeg",
+      "versionInfo": "2.5.0",
+      "downloadLocation": "https://conan.io/center/recipes/openjpeg?version=2.5.0",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "2886244f2492121aa7c6c493a814db06"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/openjpeg?version=2.5.0",
+      "licenseDeclared": "BSD-2-Clause",
+      "licenseConcluded": "BSD-2-Clause",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/openjpeg@2.5.0"
+        }
+      ],
+      "supplier": "Organization: uclouvain",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    },
+    {
+      "SPDXID": "SPDXRef-CFAMILY-ZLIB-1.2.13",
+      "name": "zlib",
+      "versionInfo": "1.2.13",
+      "downloadLocation": "https://conan.io/center/recipes/zlib?version=1.2.13",
+      "checksums": [
+        {
+          "algorithm": "MD5",
+          "checksumValue": "4e74ebf1361fe6fb60326f473f276eb5"
+        }
+      ],
+      "homepage": "https://conan.io/center/recipes/zlib?version=1.2.13",
+      "licenseDeclared": "Zlib",
+      "licenseConcluded": "Zlib",
+      "externalRefs": [
+        {
+          "referenceCategory": "OTHER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:conan/zlib@1.2.13"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-45853"
+        },
+        {
+          "referenceCategory": "SECURITY",
+          "referenceType": "CVE",
+          "referenceLocator": "CVE-2023-6992"
+        }
+      ],
+      "supplier": "NOASSERTION",
+      "originator": "NOASSERTION",
+      "primaryPackagePurpose": "LIBRARY",
+      "filesAnalyzed": false
+    }
+  ],
+  "relationships": [
+    {
+      "spdxElementId": "SPDXRef-DOCUMENT",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relationshipType": "DESCRIBES"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-JXRLIB-cci.20170615",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBJPEG-9e",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBPNG-1.6.40",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBRAW-0.20.2",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBTIFF-4.5.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-LIBWEBP-1.3.1",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-OPENEXR-2.5.7",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-OPENJPEG-2.5.0",
+      "relationshipType": "DEPENDS_ON"
+    },
+    {
+      "spdxElementId": "SPDXRef-CFAMILY-FREEIMAGE-3.18.0",
+      "relatedSpdxElement": "SPDXRef-CFAMILY-ZLIB-1.2.13",
+      "relationshipType": "DEPENDS_ON"
+    }
+  ]
+}
